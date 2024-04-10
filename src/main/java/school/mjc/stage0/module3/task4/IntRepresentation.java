@@ -8,7 +8,18 @@ public class IntRepresentation {
         char char4 = 'r';
 
         // Print characters using their integer representations
-        System.out.println((char)(int) char1 +"" +(char) (int) char2+""  +(char) (int) char3  +""+ (char)(int) char4);
+        int a = (int) char1;
+        int b = (int) char2;
+        int c = (int) char3;
+        int d = (int) char4;
+        char charC = (char) a;
+        char charH = (char) b;
+        char charA = (char) c;
+        char charR = (char) d;
+        System.out.print(charC);
+        System.out.print( charH);
+        System.out.print(charA);
+        System.out.print(charR);
     }
 }
 

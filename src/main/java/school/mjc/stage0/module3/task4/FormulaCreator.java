@@ -9,7 +9,7 @@ public class FormulaCreator {
 
         // Assign values to variables (replace these with actual values)
         a = 7;
-        b = 8
+        b = 8;
 
         // Print the result
         System.out.println((9 * Math.pow(a, 2) - 5 * b + 2 + a - 7) * ((a + b - 4 * a * b) / 2));
